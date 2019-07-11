@@ -2,7 +2,7 @@ import sys, time, logging
 from datetime import datetime
 import logging
 import spidev
-import RPi.GPIO as GPIO
+import Jetson.GPIO as GPIO
 from .registers import *
 from .packet import Packet
 from .config import get_config
